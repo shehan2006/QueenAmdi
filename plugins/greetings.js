@@ -42,7 +42,7 @@ AMDI({ cmd: "setwelcome", desc: Lang.setwelDesc, example: Lang.setwelEx, type: "
         await reply(Lang.WelcomSetted, "✅");
         return clearMedia(filename.file);
     } else {
-        const imgURL = 'https://i.ibb.co/XCfhtfH/301820a4f3c0.jpg'
+        const imgURL = 'https://ibb.co/k8g87Wb'
         const note = replied_text
         await setWelcome(amdiWA.clientJID, note, imgURL)
         return await reply(Lang.WelcomSetted, "✅");
@@ -96,7 +96,7 @@ AMDI({ cmd: "setbye", desc: Lang.setbyeDesc, example: Lang.setbyeEx, type: "admi
         await reply(Lang.ByeSetted, "✅");
         return clearMedia(filename.file);
     } else {
-        const imgURL = 'https://i.ibb.co/pbjB2pS/93f527f9f2fb.jpg'
+        const imgURL = 'https://ibb.co/3hTJLFS'
         const note = replied_text
         await setBye(amdiWA.clientJID, note, imgURL)
         return await reply(Lang.ByeSetted, "✅");
